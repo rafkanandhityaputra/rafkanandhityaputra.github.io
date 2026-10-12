@@ -134,6 +134,40 @@
             font-size: 19px;
         }
     }
+        /* Tombol menu navigasi */
+tr:nth-child(2) td {
+    background-color: #ccfbf1;
+    padding: 18px;
+}
+
+tr:nth-child(2) a {
+    display: inline-block;
+    background: linear-gradient(135deg, #0f766e, #14b8a6);
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin: 4px 2px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Efek saat kursor diarahkan */
+tr:nth-child(2) a:hover {
+    background: linear-gradient(135deg, #115e59, #0f766e);
+    transform: translateY(-3px);
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Menyembunyikan tanda pemisah | */
+tr:nth-child(2) td {
+    font-size: 0;
+}
+
+tr:nth-child(2) a {
+    font-size: 16px;
+}
 </style>
 </head>
 
